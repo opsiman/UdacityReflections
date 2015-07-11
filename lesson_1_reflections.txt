@@ -18,3 +18,4 @@ You can separate commits by reasonably-sized logical changes, rather than anythi
 1.4 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
 Google Docs has no idea which files relate to each other. Git seems set up to handle things on a project or fork basis, rather than a file basis. It seems like it assumes there may be more than one inter-related file for any given project. 
+
