@@ -6,3 +6,9 @@
 I guess you can be sure to run 'git diff' before committing, to double check exactly what has
 been updated. You could even make an effort to stage a change as soon as you are ready to
 move on to the next one.
+
+
+
+2.5 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+first thing that comes to mind is trying out experiments, re-arrangements of code, etc. I can also see it working well if more than one person is working on the code-- different branched can be combined later hopefully. The merging seems like the hard part to me.
