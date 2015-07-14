@@ -1,0 +1,8 @@
+
+
+
+2.4 How can you use the staging area to make sure you have one commit per logical change?
+
+I guess you can be sure to run 'git diff' before committing, to double check exactly what has
+been updated. You could even make an effort to stage a change as soon as you are ready to
+move on to the next one.
