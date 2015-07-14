@@ -12,3 +12,9 @@ move on to the next one.
 2.5 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 first thing that comes to mind is trying out experiments, re-arrangements of code, etc. I can also see it working well if more than one person is working on the code-- different branched can be combined later hopefully. The merging seems like the hard part to me.
+
+
+
+2.6 How do the diagrams help you visualize the branch structure?
+
+The directional arrows toward parents of commits help make the traversal of the log clear, and show any commits that are inaccessible. Also they show the various branches very clearly so it's easy to see what splits where.
