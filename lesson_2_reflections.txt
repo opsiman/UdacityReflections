@@ -18,3 +18,9 @@ first thing that comes to mind is trying out experiments, re-arrangements of cod
 2.6 How do the diagrams help you visualize the branch structure?
 
 The directional arrows toward parents of commits help make the traversal of the log clear, and show any commits that are inaccessible. Also they show the various branches very clearly so it's easy to see what splits where.
+
+
+
+2.7 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging 2 branches creates a new commit that incorporated (or tries to incorporate) all the changes made in each branch being merged since since the commit where the diverged. The diagram shows the parental links between different commits as kind of nodes on a tree. When branches are merged, we draw the tree branches coming back together at a single node or commit.
