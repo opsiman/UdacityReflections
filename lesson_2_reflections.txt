@@ -24,3 +24,10 @@ The directional arrows toward parents of commits help make the traversal of the 
 2.7 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging 2 branches creates a new commit that incorporated (or tries to incorporate) all the changes made in each branch being merged since since the commit where the diverged. The diagram shows the parental links between different commits as kind of nodes on a tree. When branches are merged, we draw the tree branches coming back together at a single node or commit.
+
+
+
+2.8 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+If the changes in two branches were generally to separate parts of the code, the auto merge is super easy and clean. One con would be the difficulty in merging branches which have changes to the same parts of the code. Doing a manual merge might give similar results as a partially manual auto merge, since results have to be worked over my programmers anyway.
+I can see this method effecting the habits by which people code in the first place-- making them very aware of potential merging issues from the outset, and maybe even making them wary of changing parts of code that could create merge confilicts. For example, if you just stumble across a small problem somewhere in the code that you want to quickly tweak on the fly, even though it's not the piece you set out to work on for this branch, you may just leave it be so it doesn't complicate the merge process. Maybe this is good generally, but sometimes I work kind of on the fly and want to tweak at will... this may force a better discipline...
