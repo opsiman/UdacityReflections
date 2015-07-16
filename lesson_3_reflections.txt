@@ -1,1 +1,7 @@
+3.1 When would you want to use a remote repository rather than keeping all your work local?
 
+If I were working on the file from more than one computer. 
+If I want a remote backup of my project. 
+If more than one person is working on the project. 
+This is going to come in very handy since I seem to find myself working 
+on 3 different computers throughout any given day.
