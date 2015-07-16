@@ -1,19 +1,32 @@
-3.1 When would you want to use a remote repository rather than keeping all your work local?
+3.1 When would you want to use a remote repository rather than keeping
+all your work local?
 
-If I were working on the file from more than one computer. 
-If I want a remote backup of my project. 
-If more than one person is working on the project. 
-This is going to come in very handy since I seem to find myself working 
-on 3 different computers throughout any given day.
+If I were working on the file from more than one computer.  If I want
+a remote backup of my project.  If more than one person is working on
+the project.  This is going to come in very handy since I seem to find
+myself working  on 3 different computers throughout any given day.
 
 
 
-3.2 Why might you want to always pull changes manually rather than 
+3.2 Why might you want to always pull changes manually rather than
 having Git automatically stay up-to-date with your remote repository?
 
-First thought is that you don't necessarily get to a good stopping point with every commit-- 
-and neither does another coder working on the project. 
-You probably don't need to chase every commit as it comes.
-I'm not sure how you'd know when to pull though, 
-when other coders are working on the same project.
+First thought is that you don't necessarily get to a good stopping
+point with every commit--  and neither does another coder working on
+the project.  You probably don't need to chase every commit as it
+comes. I'm not sure how you'd know when to pull though,  when other
+coders are working on the same project.
 
+
+
+3.3 Describe the differences between forks, clones, and branches. When
+would you use one instead of another?
+
+A clone is a copy of a repository on a local machine. A fork is a
+special kind of clone that is copied from one remote GitHub repository
+to another remote GitHub repository. It has the benefit of linking
+back to, and crediting, the author who originated the repository.
+Branches are alternate versions, whether temporary or permanent, of a
+project. They can be local or remote, and involve copying the code for
+the purpose of altering it-- possibly with the intention of merging it
+back into another branch later.
