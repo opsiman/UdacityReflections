@@ -5,3 +5,15 @@ If I want a remote backup of my project.
 If more than one person is working on the project. 
 This is going to come in very handy since I seem to find myself working 
 on 3 different computers throughout any given day.
+
+
+
+3.2 Why might you want to always pull changes manually rather than 
+having Git automatically stay up-to-date with your remote repository?
+
+First thought is that you don't necessarily get to a good stopping point with every commit-- 
+and neither does another coder working on the project. 
+You probably don't need to chase every commit as it comes.
+I'm not sure how you'd know when to pull though, 
+when other coders are working on the same project.
+
