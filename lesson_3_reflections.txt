@@ -30,3 +30,9 @@ Branches are alternate versions, whether temporary or permanent, of a
 project. They can be local or remote, and involve copying the code for
 the purpose of altering it-- possibly with the intention of merging it
 back into another branch later.
+
+
+
+3.4 What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It's great if you're working offline. Even if you have internet access, it's nice to be able to quickly compare, merge, etc. with a local copy of the latest. Also you can get all your stuff synched locally before you add it back in to a public repository.
