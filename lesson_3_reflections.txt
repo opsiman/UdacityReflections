@@ -33,6 +33,23 @@ back into another branch later.
 
 
 
-3.4 What is the benefit of having a copy of the last known state of the remote stored locally?
+3.4 What is the benefit of having a copy of the last known state of
+the remote stored locally?
 
-It's great if you're working offline. Even if you have internet access, it's nice to be able to quickly compare, merge, etc. with a local copy of the latest. Also you can get all your stuff synched locally before you add it back in to a public repository.
+It's great if you're working offline. Even if you have internet access, 
+it's nice to be able to quickly compare, merge, etc. with a local copy 
+of the latest. Also you can get all your stuff synched locally before 
+you add it back in to a public repository.
+
+
+
+3.5 How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+
+You might want to break up projects into owned files that one person
+keeps track of. You'd have to use the built in 'diff' command and track
+every damn thing by hand. It would be harder.
+On really small projects, the overhead of using GitHub might occasionally
+be more of a pain than it's worth, but most of the time it seems 
+like it would be a very useful tool for collaborating.
+
